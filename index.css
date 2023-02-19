@@ -1,0 +1,282 @@
+
+    
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+#body {
+    opacity 0.7;
+    backgrund: #9d9d9d;
+    background: #e3e3e3;
+}
+
+/* new */
+
+.new {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.new h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.new h4 a {
+    text-decoration: none;
+    background: black;
+    padding: 5px 5px;
+    color: white;
+}
+
+/* sub */
+
+.sub {
+    width: 100%;
+    height: 40vh;
+    background: url(images/christopher-campbell-Xo4YvBp6IBM.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 40px 0;
+    position: relative;
+}
+
+.sub .com {
+    position: absolute; 
+    top: 80px;
+    left: 30px;
+}
+
+.sub .com h2 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.sub .com button {
+    width: 90px;
+    height: 40px;
+    background: #988b9876;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 10px 0;
+}
+
+.sub .com button:active {
+    background: #ac819e;
+}
+
+/* blog1 */
+
+.blog1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.blog1 .head {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding: 30px 20px;
+}
+
+.head h1 {
+    margin-top: 10px;
+}
+
+.head h3 {
+    margin: 20px 0;
+}
+
+.head h3 a {
+    text-decoration: none;
+    color: #7d826c;
+}
+
+.blog1 .head .img {
+    width: 100%;
+    height: 25vh;
+    background: url(images/FB_IMG_16767500578321339.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.head p {
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.li-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.li-btn button {
+    border: none;
+    margin: 0 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.li-btn .like {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background: whitesmoke;
+    padding: 7px 15px;
+}
+
+.li-btn .reply {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background: black;
+    padding: 7px 15px; 
+    color: white;
+    position: absolute;
+    right: 5px;
+}
+
+.li-btn .reply button {
+    color: white;
+    background: transparent;
+}
+
+.li-btn .reply a {
+    padding: 1px 2px;
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+
+.li-btn .liked {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background: whitesmoke;
+    padding: 7px 15px;
+    position: absolute;
+    display: none;
+}
+
+/* rep */
+
+.rep {
+    width: 80%;
+    height: 60vh;
+    padding: 0 8px;
+    display: none;
+}
+
+.rep .lin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rep .lin .line {
+    width: 230px;
+    height: 1px;
+    background: #898989;
+    margin-top: 30px;
+}
+
+.rep .repbox {
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+.rep img {
+    width: 50%;
+    height: 13vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.rep .repbox .nate {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.rep .repbox .nate h3 {
+   color: #7d826c;
+   margin: 0 10px;
+    
+}
+
+/* sub-box */
+
+.sub-box {
+    width: 90%;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    display: none;
+}
+
+.sub-box .box {
+    width: 90%;
+    height: auto;
+    display: flex;
+    background: white;  
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    position: relative;
+}
+
+.sub-box .box h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.sub-box .box p{
+     margin: 15px 0;
+}
+
+.box input {
+    margin: 10px 0;
+    height: 45px;
+    outline: none;
+    padding: 0 5px;
+}
+
+.box button {
+    height: 45px;
+    border: none;
+    background: red;
+    color: white;
+}
+
+.box i {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+
+

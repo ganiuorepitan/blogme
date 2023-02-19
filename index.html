@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Site</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/fontawesome.min.css">
+</head>
+<body id="body">
+       
+       <!-- bloglife -->
+    
+        <div class="new">
+            <h1>abdul Bloglife</h1>
+            <h4>Welcome to the blog of <a href="#">Abdul's world</a></h4>
+       </div>
+    
+        <!-- main -->
+    
+        <div class="sub">
+            <div class="com">
+                <h2>Abdul's</h2>
+                <button id="sub" onclick="show()">Subscribe</button>
+            </div>
+        </div> 
+        
+        <!-- blog1 -->
+        
+        <div class="blog1">
+            <div class="head">
+               <h1>SCARCITY OF THE NEW NAIRA NOTE</h1>
+               <h3>Buhari Considers Recirculating Old N200 Notes to Ease Pains of Naira Scarcity, <a href="#">Feb 16, 2023</a></h3> 
+               <div class="img"></div>
+               <p>President Muhammadu Buhari is considering directing the Central Bank of Nigeria (CBN) to allow only the old N200 remain legal tender until April 10, 2023, in order to improve currency circulation in the country and ease pains experienced by Nigerians due to the decision to retire some denominations of the old banknotes after a currency redesign project.</p>
+               <div class="li-btn">
+                 <div class="like" id="like" onclick="like()">
+                     <i class=" fas fa-thumbs-up"></i>
+                     <button>Like</button>
+                 </div>
+                 <div class="reply" onclick="rep()">
+                     <button>Replies</button>
+                     <a href="#">2</a>
+                 </div>
+                 <div class="liked" id="liked" onclick="liked()">
+                     <i class=" fas fa-check"></i>
+                     <button>Liked</button>
+                 </div>
+               </div>
+               <div class="rep" id="rep">
+                   <div class="lin">
+                       <div class="line"></div>
+                   </div>
+                   <div class="repbox">
+                       <img src="images/warren-wong-VVEwJJRRHgk.jpg">
+                       <div class="nate">
+                           <h2>Joseph</h2>
+                           <h3>36 Minutes ago</h3>
+                       </div>
+                       <p></p>
+                   </div>
+               </div>               
+            </div>
+        </div>
+    
+    <!-- subscribe -->
+    
+    <div class="sub-box" id="sub-box">
+        <div class="box">
+            <h2>Subscribe</h2>
+            <i class="fa-sharp fa-solid fa-xmark" onclick="cancel()"></i>
+            <p>Join my mailing list to receive updated on the latest blog posts and other things.</p>
+            <input type="email" placeholder="Enter e-mail">
+            <button>Subscribe</button>
+        </div>
+    </div>
+    
+    <!-- script -->
+    
+    <script>
+        
+        function show() {
+        document.getElementById('sub-box').style.display = "block";
+    }
+    
+    function cancel() {
+        document.getElementById('sub-box').style.display = "none";
+    }
+    
+    function like() {
+        document.getElementById('liked').style.display = "block";
+    }
+    
+    function liked() {
+        document.getElementById('liked').style.display = "none";
+    }
+    
+    function rep() {
+        document.getElementById('rep').style.display = "block";
+    }
+    
+    </script>
+    
+</body>
+</html>
